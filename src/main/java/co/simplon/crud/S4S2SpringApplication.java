@@ -1,10 +1,10 @@
-package com.example.demo;
+package co.simplon.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication (scanBasePackages= "co.simplon.crud")
+@SpringBootApplication //(scanBasePackages= "co.simplon.crud")
 public class S4S2SpringApplication {
 
 	public static void main(String[] args) {

@@ -6,7 +6,6 @@ import java.util.Optional;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import co.simplon.crud.model.Foo;
 import co.simplon.crud.repository.FooRepository;
 
 @Named
@@ -15,7 +14,7 @@ public class FooServiceImpl implements FooService {
     @Inject
     FooRepository fooRepository;
 	
-    public Foo saveFoo(Foo foo) {
+    public Foo save(Foo foo) {
 	  fooRepository.save(foo);
 	  return foo;
     }

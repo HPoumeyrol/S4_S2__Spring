@@ -1,4 +1,4 @@
-package co.simplon.crud.model;
+package poubelle;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
